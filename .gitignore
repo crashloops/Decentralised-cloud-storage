@@ -1,0 +1,46 @@
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment secrets
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Vite
+dist/
+*.local
+
+# Logs
+*.log
+logs/
+debug.log
+error.log
+
+# Build artifacts
+.cache/
+temp/
+.tmp/
+out/
+coverage/
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependency locks (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS junk
+*.swp
+*.swo
+*.tmp
